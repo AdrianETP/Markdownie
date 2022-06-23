@@ -1,24 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
+import {useState}from 'react';
 import './App.css';
+import { getValue } from '@testing-library/user-event/dist/utils';
 
 function App() {
+    const [html , sethtml] = useState<string>(" "); 
+    var showdown  = require('showdown');
+     let converter = new showdown.Converter();
+    function addtext(ntext:string){
+       sethtml(converter.makeHtml(ntext));
+    }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <textarea className='App__text' onChange={e=>{addtext(e.target.value)}}/>
+     <div className="App__div--markdowndisplay" dangerouslySetInnerHTML={{__html: html}}></div> 
     </div>
   );
 }
