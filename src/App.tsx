@@ -14,9 +14,15 @@ function App() {
     function savetext(){
       var a = document.createElement("a");
       let name = prompt("nombre del archivo")
-      a.href = window.URL.createObjectURL(new Blob([mdt], {type: "markdown"}));
-      a.download = name+".md";
-      a.click();
+      if(name == ""){
+        alert("error: no puedes dejar el nombre del archivo vacio");
+      }
+      else{
+
+        a.href = window.URL.createObjectURL(new Blob([mdt], {type: "markdown"}));
+        a.download = name+".md";
+        a.click();
+      }
     }
   return (
     <div className="App">
