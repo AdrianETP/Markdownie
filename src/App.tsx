@@ -14,7 +14,7 @@ function App() {
     function savetext(){
       var a = document.createElement("a");
       let name = prompt("nombre del archivo")
-      if(name == ""){
+      if(name == "" || name == null){
         alert("error: no puedes dejar el nombre del archivo vacio");
       }
       else{
