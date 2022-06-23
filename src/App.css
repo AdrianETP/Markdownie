@@ -2,19 +2,29 @@
     display: flex;
 }
 .App__text{
-    background-color: darkgray;
+    background-color: rgb(94, 94, 94);
     height: 100vh;
     width: 50vw;
     font-size: 20px;
+    color:aliceblue;
+    border:none;
 }
 .App__div--markdowndisplay{
 
-    background-color: gray;
+    background-color: rgb(58, 58, 58);
     height: 100vh;
     width:50vw ;
     font-size: 20px;
+    color: aliceblue;
+    padding:10px;
 
 }
+.App__button--save{
+    background-color: rgb(46, 46, 46);
+    color: aliceblue;
+    border: none;
+}
+
 h1{
     color: rgb(190, 190, 255);
 }
