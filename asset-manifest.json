@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/md_editor_web/static/css/main.ddb5a89a.css",
-    "main.js": "/md_editor_web/static/js/main.652cdc17.js",
-    "static/js/787.d66eab7e.chunk.js": "/md_editor_web/static/js/787.d66eab7e.chunk.js",
-    "index.html": "/md_editor_web/index.html",
-    "main.ddb5a89a.css.map": "/md_editor_web/static/css/main.ddb5a89a.css.map",
-    "main.652cdc17.js.map": "/md_editor_web/static/js/main.652cdc17.js.map",
-    "787.d66eab7e.chunk.js.map": "/md_editor_web/static/js/787.d66eab7e.chunk.js.map"
+    "main.css": "/Markdownie/static/css/main.ddb5a89a.css",
+    "main.js": "/Markdownie/static/js/main.39b4e117.js",
+    "static/js/787.d66eab7e.chunk.js": "/Markdownie/static/js/787.d66eab7e.chunk.js",
+    "index.html": "/Markdownie/index.html",
+    "main.ddb5a89a.css.map": "/Markdownie/static/css/main.ddb5a89a.css.map",
+    "main.39b4e117.js.map": "/Markdownie/static/js/main.39b4e117.js.map",
+    "787.d66eab7e.chunk.js.map": "/Markdownie/static/js/787.d66eab7e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ddb5a89a.css",
-    "static/js/main.652cdc17.js"
+    "static/js/main.39b4e117.js"
   ]
 }
