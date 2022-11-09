@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Markdownie/static/css/main.60c308c9.css",
+    "main.css": "/Markdownie/static/css/main.523a5fe7.css",
     "main.js": "/Markdownie/static/js/main.7aff11c4.js",
     "static/js/787.ca614d6d.chunk.js": "/Markdownie/static/js/787.ca614d6d.chunk.js",
     "index.html": "/Markdownie/index.html",
-    "main.60c308c9.css.map": "/Markdownie/static/css/main.60c308c9.css.map",
+    "main.523a5fe7.css.map": "/Markdownie/static/css/main.523a5fe7.css.map",
     "main.7aff11c4.js.map": "/Markdownie/static/js/main.7aff11c4.js.map",
     "787.ca614d6d.chunk.js.map": "/Markdownie/static/js/787.ca614d6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60c308c9.css",
+    "static/css/main.523a5fe7.css",
     "static/js/main.7aff11c4.js"
   ]
 }
