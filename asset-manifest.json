@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Markdownie/static/css/main.a04cf7e7.css",
-    "main.js": "/Markdownie/static/js/main.4e0f2b3f.js",
+    "main.css": "/Markdownie/static/css/main.5241685b.css",
+    "main.js": "/Markdownie/static/js/main.0e70d3c3.js",
     "static/js/1983.32bfc08d.chunk.js": "/Markdownie/static/js/1983.32bfc08d.chunk.js",
     "static/js/2355.fb9ca903.chunk.js": "/Markdownie/static/js/2355.fb9ca903.chunk.js",
     "static/js/8625.eb2ecf15.chunk.js": "/Markdownie/static/js/8625.eb2ecf15.chunk.js",
@@ -110,8 +110,8 @@
     "static/js/8222.694d0d10.chunk.js": "/Markdownie/static/js/8222.694d0d10.chunk.js",
     "static/js/787.26f21f83.chunk.js": "/Markdownie/static/js/787.26f21f83.chunk.js",
     "index.html": "/Markdownie/index.html",
-    "main.a04cf7e7.css.map": "/Markdownie/static/css/main.a04cf7e7.css.map",
-    "main.4e0f2b3f.js.map": "/Markdownie/static/js/main.4e0f2b3f.js.map",
+    "main.5241685b.css.map": "/Markdownie/static/css/main.5241685b.css.map",
+    "main.0e70d3c3.js.map": "/Markdownie/static/js/main.0e70d3c3.js.map",
     "1983.32bfc08d.chunk.js.map": "/Markdownie/static/js/1983.32bfc08d.chunk.js.map",
     "2355.fb9ca903.chunk.js.map": "/Markdownie/static/js/2355.fb9ca903.chunk.js.map",
     "8625.eb2ecf15.chunk.js.map": "/Markdownie/static/js/8625.eb2ecf15.chunk.js.map",
@@ -221,7 +221,7 @@
     "787.26f21f83.chunk.js.map": "/Markdownie/static/js/787.26f21f83.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a04cf7e7.css",
-    "static/js/main.4e0f2b3f.js"
+    "static/css/main.5241685b.css",
+    "static/js/main.0e70d3c3.js"
   ]
 }
