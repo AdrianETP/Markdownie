@@ -1,4 +1,6 @@
 # Markdownie 
+![image](https://user-images.githubusercontent.com/101372036/210189604-7ac324b6-6b1b-4a23-b048-8074537083f3.png)
+
 
 - **Markdownie** is a minimal markdown app that lets you write markdown and Read in a user-friendly way the markdown you wrote 
 
