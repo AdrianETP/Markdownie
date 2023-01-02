@@ -7,7 +7,7 @@
     "Daniel Noe Salinas",
     "Leonardo Corona"
   ],
-  "homepage": "https://adrianETP.github.io/Markdownie/",
+  "homepage": "https://adrianetp.github.io/Markdownie/",
   "dependencies": {
     "@codemirror/lang-markdown": "^6.0.5",
     "@codemirror/language-data": "^6.1.0",
