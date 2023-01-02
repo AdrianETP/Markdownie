@@ -17,6 +17,10 @@
 ### importing and exporting files 
 - to import and export files, just hover over the menu at the top-tight corner, select the option you want and follow the app instructions
 
+### Vim mode 
+- Vim mode lets you use __Vim__ keybindings on the editor 
+- To use enable/disable it, hover over the menu at the top-right corner, and select the Vim mode option
+
 
 ## Special thanks to: 
 [Leonardo Corona](https://github.com/UmActually) and [Daniel Noe Salinas](https://github.com/Noe-Sanchez) for pushing me to make and better this project
