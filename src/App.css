@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+*{
+    margin:0
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main {
+    display:flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.preview {
+    background-color: #1c2127;
+    width:50%;
+    color: whitesmoke;
+    font-family: arial;
+    line-height: 30px;
+    padding: 15px;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+table {
+    border: 1px solid white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+tr {
+    border: 1px solid white;
+}
+
+tc {
+    border :1px solid white;
+}
+
+.Markdownie__div--menu{
+	position: absolute;
+	background-color: #5f616b;
+	padding: 10px;
+	border-radius: 10%;
+	right:10px;
+	top :10px;
+	transition: 0.1s;
+
+}
+.Markdownie__div--dropDown{
+    font-family: arial;
+	display :none;
+	position: absolute;
+	z-index: 2;
+	right: 10px;
+	top: 30px;
+	background-color: black;
+	padding: 10px;
+	border-radius: 5%;
+	
+}
+.Markdownie__div--dropDown>div{
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 10px;
+	border-radius: 10px;
+	transition: 0.1s;
+
+}
+.Markdownie__div--dropDown>div:hover{
+	background-color: #7eafca;
+	color: black;
+
+}
+
+.Markdownie__div--menu:hover .Markdownie__div--dropDown {
+	display: block;
+}
+.Markdownie__div--menu:hover  {
+	background-color: black;
+    color: #7eafca;
 }
