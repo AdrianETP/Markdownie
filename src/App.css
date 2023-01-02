@@ -4,11 +4,16 @@
 
 main {
     display:flex;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
 }
 
 .preview {
     background-color: #1c2127;
     width:50%;
+    height: 98vh;
+    overflow-y: scroll;
     color: whitesmoke;
     font-family: arial;
     line-height: 30px;
