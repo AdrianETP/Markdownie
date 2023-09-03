@@ -40,6 +40,11 @@ tc {
     border :1px solid white;
 }
 
+img {
+  width: 80%;
+  border-radius:5px;
+}
+
 .Markdownie__div--menu{
 	position: absolute;
 	background-color: #5f616b;
