@@ -17,7 +17,8 @@ import { AiOutlineMenu } from 'react-icons/ai'
 
 function App() {
   const [extensions, setExtensions] = useState<any>([markdown({ base: markdownLanguage, codeLanguages: languages })]); // las extensiones disponibles (markdown y vim o solo markdown)
-  const [md, setMd] = useState<string>("# hello world"); // el contenido de markdown en el editor de texto
+  const lastMarkdown = window.localStorage.getItem("lastMarkdown")
+  const [md, setMd] = useState<string>(lastMarkdown ? lastMarkdown : "# hello world"); // el contenido de markdown en el editor de texto
   const [reactmd, setReactMd] = useState<any>(); // el contenido de markdown convertido en componentes de react
 
   // funcion para declarar el preview
@@ -30,6 +31,7 @@ function App() {
 
   // cuando el editor de texto cambie
   const handleChange = (e: any) => {
+    window.localStorage.setItem("lastMarkdown", e)
     setMd(e); // declara md como lo que esta en el editor de texto
   }
 
@@ -63,6 +65,11 @@ function App() {
     }
   };
 
+  const clearContent = () => {
+    setMd("")
+    window.localStorage.setItem("lastMarkdown", "")
+
+  }
   // funcion de importar archivo
   const importFile = () => {
     var input = document.createElement('input'); // crea un input
@@ -106,6 +113,7 @@ function App() {
         <div onClick={() => exportToMarkdown()}>Export file</div>
         <br />
         <div onClick={() => { importFile() }}>Import file</div>
+        <div onClick={() => { clearContent() }}>Clear content</div>
         <div onClick={() => {
           // si ya hay otra extension que no sea markdown
           if (extensions.length > 1) {
